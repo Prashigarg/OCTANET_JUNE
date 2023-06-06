@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'popins', sans-serif;
+}
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: url(image1.jpg);
+    background-size: cover;
+}
+header{
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    position: relative;
+    color: #000;
+    font-size: larger;
+    text-decoration: none;
+    font-weight: 900;
+    letter-spacing: 1px;
+    margin-left: 22px;
+}
+header .navbar a{
+    color: #000;
+    background: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 2px 15px;
+    border-radius: 30px;
+    transition: 0.3s;
+    font-size: x-large;
+   
+}
+header .navbar a:not(:last-child){
+    margin-right: 30px;
+}
+header .navbar a:hover{
+    background: #fff;
+}
+.content{
+    max-width: 650px;
+    margin: 60px 100px;
+}
+.content .info h2{
+   color: #226A80;
+   font-size: 55px;
+   text-transform: uppercase;
+   font-weight: 800;
+   letter-spacing: 2px;
+   line-height: 60px;
+   margin-bottom: 30px;
+}
+.content .info p{
+    margin-top: 100px;
+   font-size: 22px;
+   font-weight: 800;
+   margin-bottom: 40px;
+}
+.content .info-butn{
+    color: #fff;
+    background: #226A80;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    border-radius: 7px;
+}
+.content .info-butn:hover{
+    background: #0C4F60;
+}
